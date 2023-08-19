@@ -1,1 +1,187 @@
 /* место для вашего кода */
+body {
+    margin: 0;
+    font-family:Raleway,sans-serif;
+    font-weight:400;
+    background-color:white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+    margin:0;
+    padding:0;
+}
+.content-section {
+   display:inline-block;
+   box-sizing: border-box;
+   width:360px;
+   min-height:100px;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:24px 20 px;
+}
+.header_menu-list {
+    display: flex;
+    flex-direction:row;
+    gap:12px;
+    list-style:circle;
+}
+.header__menu-link {
+    color:#000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.header__logo {
+    width: 148px;
+    height: 105px;
+}
+.header__logo-image {
+    width: 50px;
+    display: inline-block;
+    margin:0 10px;
+}
+.cover__title {
+color: black;
+font-family: Raleway;
+font-size: 100px;
+font-style:normal;
+font-weight: 700;
+line-height: 115%; /* 115px */
+letter-spacing: 30px;
+text-transform: uppercase;
+}
+.cover {
+min-width:1440px;
+max-height: 757px;
+padding: 0px;
+background-image:url(/images/cover.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size:100% auto;
+position: relative;
+}
+.lots__card-list-item
+{
+    min-height:450px;
+    max-width:430px;
+    flex-grow:1;
+    display: inline-block;
+}
+.card-link {
+    min-height:100% ;
+}
+.card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
+}
+.card_type_book {
+    background-image: url(../images/card-lot-02.jpg);
+}
+.card_type_picture {
+    background-image: url(../images/card-lot-03.jpg);
+}
+.card__title_film {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 26.4px */
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+.card__text_film {
+color: #FFF;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 24px */
+}
+.card_type_film {
+   
+    max-width: 430px;
+    min-height:450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   
+}
+.card_type_book {
+    display: flex;
+    position: relative;
+    max-width: 430px;
+    min-height:450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 25px;
+}
+.card_type_picture {
+    display: flex;
+    display: inline-block;
+    position: relative;
+    max-width: 430px;
+    min-height:450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 25px;
+}
+.lots_title {
+color: #000;
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.card__title_book {
+color: #FFF;
+font-family: Raleway;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 26.4px */
+text-decoration-line: underline;
+text-transform: uppercase;
+}
+.card__text_book{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 24px */
+    }
+.card__title_picture {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 26.4px */
+    text-decoration-line: underline;
+    text-transform: uppercase;
+        }
+.card__text_picture{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 24px */
+            }
