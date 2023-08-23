@@ -344,23 +344,30 @@ max-width: 240px;
 .address__footer {
     justify-self: start;
 }
+
+
 .about {
     display: grid;
-    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-columns:  430px 885px;
     gap: 8px;
     max-width: 1440px;
     margin-top: 183px;
     padding-left: 38px;
   }
-  
-.about__logo {
+
+  .about__logo {
     background-color: #000;
     width: 240px;
     height: 240px;
+   
     display: flex;
     border-radius: 50%;
-    align-self: center;
-    justify-self: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+    
+    justify-self:flex-start;
   }
   
 .about__logo-image {
@@ -377,7 +384,7 @@ font-weight: 400;
 line-height: normal;
 display: flex;
 flex-direction: column;
-align-self: center;
+align-self: left;
 gap:25px;
 }
 .about__title {
@@ -388,7 +395,9 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
-align-self: center;
+align-self: left;
+margin-top: 100px;
+margin-bottom: 100px
 }
 .footer {
     display: flex;
