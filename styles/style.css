@@ -181,7 +181,7 @@ line-height: normal;
         flex-direction: column;
         justify-content: space-between;
         
-          background-image: url(../images/card-lot-01.jpg);
+          background-image: url(./images/card-lot-01.jpg);
           background-size: cover;
         }
       .card_type_book {
@@ -192,7 +192,7 @@ line-height: normal;
         flex-direction: column;
       
         justify-content: space-between;
-          background-image: url(../images/card-lot-02.jpg);
+          background-image: url(./images/card-lot-02.jpg);
           background-size: cover;
       }
       .card_type_picture {
@@ -203,7 +203,7 @@ line-height: normal;
         flex-direction: column;
       
         justify-content: space-between;
-          background-image: url(../images/card-lot-03.jpg);
+          background-image: url(./images/card-lot-03.jpg);
           background-size: cover;
       }
      
