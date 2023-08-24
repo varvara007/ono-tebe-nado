@@ -8,7 +8,7 @@
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
-
+    <div class="main">
     <header class = "header content-section">
       <nav class = "header__menu">
         <ul class = "header_menu-list">
@@ -53,53 +53,55 @@
       <button class="bet-button" type="button">Сделать ставку</button>
     </div>
   </section>
-    <section class = "lots">
+  <section class = "lots">
 
-      <h2 class = "lots_title"> Лоты </h2>
-      <ul class = "lots__card-list">
+    <h2 class = "lots_title"> Лоты </h2>
+    <ul class = "lots__card-list">
+      <li class="lots__card-list-item">
+        <a class = "card-link">
+        <article class="card_type_film">
+         
+          <h3 class="card__title_film">
+            Фильм режиссера, который бросил киношколу
+    
+          </h3>
+          <div class = "card__text_film">
+            Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+          </div>
+             </article>
+            </a>
+      </li>
+      <li class="lots__card-list-item">
+        <a class = "card-link">
+        <article class="card_type_book">
+              
+              <h3 class="card__title_book">
+                Книга, где описан один скучный день из жизни рекламного агента
+        
+              </h3>
+              <div class = "card__text_book">
+                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+              </div>
+            </article>
+        </a>
+          </li>
         <li class="lots__card-list-item">
           <a class = "card-link">
-          <article class="card_type_film">
-           
-            <h3 class="card__title_film">
-              Фильм режиссера, который бросил киношколу
-      
-            </h3>
-            <p class = "card__text_film">
-              Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-            </p>
-               </article>
-              </a>
-        </li>
-        <li class="lots__card-list-item">
-          <a class = "card-link">
-          <article class="card_type_book">
+            
+          <article class="card_type_picture">
                 
-                <h3 class="card__title_book">
-                  Книга, где описан один скучный день из жизни рекламного агента
+                <h3 class="card__title_picture">
+                  Картина, которую повторит даже 5-летний сын маминой подруги
           
                 </h3>
-                <p class = "card__text_book">
-                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
-                </p>
+                <div class = "card__text_picture">
+                 Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
+                </div>
               </article>
-          </a>
+            </a>
             </li>
-          <li class="lots__card-list-item">
-            <a class = "card-link">
-            <article class="card_type_picture">
-                  <h3 class="card__title_picture">
-                    Картина, которую повторит даже 5-летний сын маминой подруги
-            
-                  </h3>
-                  <p class = "card__text_picture">
-                   Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
-                  </p>
-                </article>
-              </a>
-              </li>
-      </ul>
-  </section>
+    </ul>
+</section>
   <section id = "about" class = "about">
     <div class="about__logo">
       <img
@@ -151,7 +153,7 @@
             class="footer__social-icon">
         </a>
       </li>
-      <li class="footer__menu-list-item">
+      <li class="footer__social-list-item">
         <a href="https://www.pinterest.com/" class="footer__social-link">
           <img
             src="/images/pinterest.svg"
@@ -161,5 +163,5 @@
       </li>
     </ul>
   </footer>
-  </footer>
+</div>
 </html>
